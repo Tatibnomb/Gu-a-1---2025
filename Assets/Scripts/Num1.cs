@@ -11,11 +11,11 @@ public class Num1 : MonoBehaviour
     void Start()
     {
         num1 = 0;
-        resultado = num1 + 2;
-        Debug.Log(resultado);
+        num1 = num1 + 2;
+        Debug.Log(num1);
 
-        resultado = resultado * resultado;
-        Debug.Log(resultado);
+        num1 = num1 * num1;
+        Debug.Log(num1);
     }
 
     // Update is called once per frame
